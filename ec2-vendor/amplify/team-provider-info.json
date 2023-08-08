@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "PermissionsBoundaryPolicyArn": "arn:aws:iam::956942507921:policy/AmplifyPermissionBoundary",
+      "AuthRoleName": "amplify-ec2vendor-dev-154726-authRole",
+      "UnauthRoleArn": "arn:aws:iam::956942507921:role/amplify-ec2vendor-dev-154726-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::956942507921:role/amplify-ec2vendor-dev-154726-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-ec2vendor-dev-154726-deployment",
+      "UnauthRoleName": "amplify-ec2vendor-dev-154726-unauthRole",
+      "StackName": "amplify-ec2vendor-dev-154726",
+      "StackId": "arn:aws:cloudformation:us-west-2:956942507921:stack/amplify-ec2vendor-dev-154726/e0383ac0-3602-11ee-8a73-063485a454b3",
+      "AmplifyAppId": "dsm6cveqt9mya",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-ec2vendor-dev-154726-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "ec2vendor835febbf": {}
+      },
+      "function": {
+        "ec2VendorApi": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dsm6cveqt9mya",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

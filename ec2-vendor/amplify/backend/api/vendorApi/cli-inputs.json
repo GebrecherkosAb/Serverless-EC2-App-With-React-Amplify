@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/vendor": {
+      "name": "/vendor",
+      "lambdaFunction": "ec2VendorApi",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
